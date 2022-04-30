@@ -5,9 +5,9 @@ Analyzing property values in TN
 **RUBRIC SUMBISSION #1**
 
 ## **PRESENTATION**
-- *SELECTED TOPIC*
-- *REASON FOR SELECTED TOPIC*
-- *DESCRIPTION OF THE SOURCE DATA*
+- Predict home value of specific types of homes based on most influential varialbes
+- We live in the area and are curious about the different factors influencing home values
+- The data is acquired from Datafinity through API call
 - *QUESTIONS WE HOPE TO ANSWER WITH THE DATA*
 [^]: Note: the content does not yet need to be in the form of a presentation; text in the README.md works as well.
 
@@ -15,7 +15,7 @@ Tennessee is home to a variety of housing options, single family, multi-family, 
 
 We will utilize information derived from from Redfin and Zillow, well known real estate websites, and utilize their information via csv or API.  The infomration provided shows housing prices, types and county.  Redfin provides a csv file for all counties within the continental United States.  This contains beginning and end dates of the sample, as well as, county location and home type.
 
-Zillow provides an API that we can use to call specifically what we need to help perform our research.  After which, we can join the two datasets to create a more robust set of data to analyze.
+Datafinity provides an API that we can use to call specifically what we need to help perform our research.  After which, we can join the two datasets to create a more robust set of data to analyze.
 
 By conducting this data analysis, we should be able to determine: 1. the most common type of housing in Tennessee; 2. the most expensive type; 3. the least expensive type; 4. predictions of the future pricing of each type of house.
 
@@ -41,7 +41,7 @@ Given the dataset and known questions, we will be utilizing a supervised learnin
 
 
 ## **DASHBOARD**
-
+Vizualization on Tableau
 
 ## **DATABASE**
 - Explaratory Data Analysis to be complete

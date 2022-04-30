@@ -13,9 +13,7 @@ Analyzing property values in TN
 
 Tennessee is home to a variety of housing options, single family, multi-family, townhouses, etc.  We will analyze the trends in housing types and prices amongst all counties within Tennessee.  We are instereed in this area due to the large volume of home sales in recent years as Nashville has become home to more and more transplants and not only from within the United States.  We found the effect of this increase on home prices and types to be an area for further study.
 
-We will utilize information derived from from Redfin and Zillow, well known real estate websites, and utilize their information via csv or API.  The infomration provided shows housing prices, types and county.  Redfin provides a csv file for all counties within the continental United States.  This contains beginning and end dates of the sample, as well as, county location and home type.
-
-Datafinity provides an API that we can use to call specifically what we need to help perform our research.  After which, we can join the two datasets to create a more robust set of data to analyze.
+We will utilize information derived from from Datafinity, a well known real estate website, and utilize their information via csv or API.  The infomration provided shows housing prices, types and county.  This contains beginning and end dates of the sample, as well as, county location and home type. Datafinity provides an API that we can use to call specifically what we need to help perform our research.  After which, we can join the two datasets to create a more robust set of data to analyze.
 
 By conducting this data analysis, we should be able to determine: 1. the most common type of housing in Tennessee; 2. the most expensive type; 3. the least expensive type; 4. predictions of the future pricing of each type of house.
 

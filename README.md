@@ -25,6 +25,13 @@ We downloaded the csv file from datafiniti for the State of TN and then created 
 
 From there, we took checked data types amongst the columns and converted the date column from object to date.  And then proceeded to run the get_dummies function to create variables to begin testing and training.
 
+We are left with important predictors county, price, date, features such as how many bedrooms and baths, garages, and property type.  With this information, we will run a series of machine learning models:
+
+Linear Regression - to predict a quantitative response to the data 
+Decision Tree Regression - To split the predictors to allow for a test and training model
+Random Forest Regression - to leverage the multiple decision trees for a more inclusive outcome
+Gradient Boos Regression - to aid in solving prediction problems in both classification and regression domains
+Time Series Analysis - to help understand the past real estate market behavior and to aid in analyzing future trends.  Such models and Simple Exponential Smoothing, Holt Forecasting Method, and Autoregressive Integrated Moving Average.
 
 
 ## **DASHBOARD**

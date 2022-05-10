@@ -5,11 +5,7 @@ Analyzing property values in TN
 **RUBRIC SUMBISSION #1**
 
 ## **PRESENTATION**
-- Predict home value of specific types of homes based on most influential varialbes
-- We live in the area and are curious about the different factors influencing home values
-- The data is acquired from Datafinity through API call
-- *QUESTIONS WE HOPE TO ANSWER WITH THE DATA*
-[^]: Note: the content does not yet need to be in the form of a presentation; text in the README.md works as well.
+
 
 Tennessee is home to a variety of housing options, single family, multi-family, townhouses, etc.  We will analyze the trends in housing types and prices amongst all counties within Tennessee.  We are instereed in this area due to the large volume of home sales in recent years as Nashville has become home to more and more transplants and not only from within the United States.  We found the effect of this increase on home prices and types to be an area for further study.
 
@@ -17,25 +13,24 @@ We will utilize information derived from from Datafinity, a well known real esta
 
 By conducting this data analysis, we should be able to determine: 1. the most common type of housing in Tennessee; 2. the most expensive type; 3. the least expensive type; 4. predictions of the future pricing of each type of house.
 
-
-## **GITHUB**
-- *INCLUDES A README.md with:*
-  - *Description of the communication protocols*
-- *INDIVIDUAL BRANCHES*
-  - *At least one branch for each team member*
-  - *Each team member has at least four commits from the duration of the first segment*
-[^]: Note: The descritpions and explanations required in all other project deliverables should also be in your README.md as part of your outline, unless otherwise noted.
-
 Our communication, based on the work/life balance of our team members, will primarily be carried out by group chat in Slack.  Within Slack, we will highlight tasks and each member will be assigned to complete.  Our motto "no person is an island" is to ensure we don't intend anyone to complete the assigned task when help is needed.  We will utilize a due date for all project items and support one another.
 
 ## **MACHINE LEARNING MODEL**
-- TEAM MEMBERS PRESENT A PROVISIONAL MACHINE LEARNING MODEL THAT STANDS IN FOR THE FINAL MACHINE LEARNING MODEL AND ACCOMPLISHES THE FOLLOWING:
-  - Sample data that mimics the expected final database structure or schema
-  - Draft machine learning module is connected to the provisional database
+Real estate has a plethora of information available to use and utilize.  However, most of the pertinent data is hidden behind each providers' API or proprietary data gathering.  The data we will analyze relies on applied statistics with an emphasis on time-series analysis and modeling.
 
-Given the dataset and known questions, we will be utilizing a supervised learning where our model will analyze the data and attempt to learn patterns.  From there, we can improve our predictions.  Below is the sample dataset.  To improve our predictions, kept all information directly related to Tennessee.  We removed all redundant or unnecessary columns.  Then eliminated all rows that have at least 1 null value
+Time-series mostly come as discrete time, where the time difference between each point is the same.  The most important characteristics of time-series are: Trend (long-term movements of values; Seasonality; and Irregular or cyclic components.
 
-<img width="1178" alt="Screen Shot 2022-04-30 at 7 35 08 AM" src="https://user-images.githubusercontent.com/91889241/166105929-a2a1df2e-ebdf-4483-9374-98a4a1965b68.png">
+We downloaded the csv file from datafiniti for the State of TN and then created a dataframe to be able to manage the data.  After looking at the data, we dropped all uncessary columns and refined that process several times to take it from 59 columns to 36.
+
+From there, we took checked data types amongst the columns and converted the date column from object to date.  And then proceeded to run the get_dummies function to create variables to begin testing and training.
+
+We are left with important predictors county, price, date, features such as how many bedrooms and baths, garages, and property type.  With this information, we will run a series of machine learning models:
+
+Linear Regression - to predict a quantitative response to the data 
+Decision Tree Regression - To split the predictors to allow for a test and training model
+Random Forest Regression - to leverage the multiple decision trees for a more inclusive outcome
+Gradient Boos Regression - to aid in solving prediction problems in both classification and regression domains
+Time Series Analysis - to help understand the past real estate market behavior and to aid in analyzing future trends.  Such models and Simple Exponential Smoothing, Holt Forecasting Method, and Autoregressive Integrated Moving Average.
 
 
 ## **DASHBOARD**

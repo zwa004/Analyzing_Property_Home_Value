@@ -48,4 +48,4 @@ Given the dataset and known questions, we will be utilizing a supervised learnin
 - An ERD draft logical model is created using quickdatabase diagrams. This is a free tool with constraints to display only 10 tables.
 https://app.quickdatabasediagrams.com/#/d/16VZbE
 Team is looking into additional data sources and expand on analysis further in the next segment.
-![InitialEDA.png](images/InitialEDA.png)
+![Version2ERD.png](images/Version2ERD.png)

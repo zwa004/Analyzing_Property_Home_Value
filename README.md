@@ -41,7 +41,7 @@ Given the dataset and known questions, we will be utilizing a supervised learnin
 
 
 ## **DASHBOARD**
-[Tableau Dashboard]([https://public.tableau.com/app/profile/zachary.allgood/viz/AnalyzingPropertyValuesinTennessee/Story1?publish=yes])
+[I'm an inline-style link](https://public.tableau.com/app/profile/zachary.allgood/viz/AnalyzingPropertyValuesinTennessee/Story1?publish=yes)
 
 ## **DATABASE**
 - Explaratory Data Analysis has started with the data in hand from Zillow.

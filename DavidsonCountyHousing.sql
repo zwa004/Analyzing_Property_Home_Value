@@ -1,5 +1,5 @@
 ﻿
-
+/* SQL script created based on the data provided by team members */
 CREATE TABLE "House" (
     "house_id" guid   NOT NULL,
     "address" text   NOT NULL,

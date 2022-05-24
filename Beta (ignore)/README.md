@@ -1,7 +1,32 @@
-# Analyzing_TN_Property_Home_Value
-Analyzing property values in TN
+# Analyzing_Property_Home_Value
+Analyzing property values in Austin, Texas
 
-# TENNESSEE COUNTY HOUSING
+**RUBRIC SUBMISSION #3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Austin HOUSING
 **RUBRIC SUMBISSION #1**
 
 ## **PRESENTATION**
@@ -41,11 +66,10 @@ Given the dataset and known questions, we will be utilizing a supervised learnin
 
 
 ## **DASHBOARD**
-
+[Tableau Dashboard](https://public.tableau.com/app/profile/zachary.allgood/viz/AnalyzingPropertyValuesinTennessee/Story1?publish=yes)
 
 ## **DATABASE**
-- Explaratory Data Analysis has started with the data in hand from Zillow.
-- An ERD draft logical model is created using quickdatabase diagrams. This is a free tool with constraints to display only 10 tables.
+- Datafiniti has provided us more data fields to work with ML. Based on the new additional data, primary and foreign keys are identified to set the relationships among tables.
 https://app.quickdatabasediagrams.com/#/d/16VZbE
 Team is looking into additional data sources and expand on analysis further in the next segment.
-![InitialEDA.png](images/InitialEDA.png)
+![Version2ERD.png](images/Version2ERD.png)

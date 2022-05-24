@@ -1,7 +1,32 @@
-# Analyzing_TN_Property_Home_Value
-Analyzing property values in TN
+# Analyzing_Property_Home_Value
+Analyzing property values in Austin, Texas
 
-# TENNESSEE COUNTY HOUSING
+**RUBRIC SUBMISSION #3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Austin HOUSING
 **RUBRIC SUMBISSION #1**
 
 ## **PRESENTATION**

@@ -12,7 +12,7 @@ The goal of this project is to determine which factor(s) impact the price of hou
 
 
 
-Link to [Slide Presentation] (https://docs.google.com/presentation/d/11tu1Yr9wB-uFW2_k3EilC2_G3pL-kvGjcyDcvKWN_wg/edit?usp=sharing)
+Link to [Slide Presentation](https://docs.google.com/presentation/d/11tu1Yr9wB-uFW2_k3EilC2_G3pL-kvGjcyDcvKWN_wg/edit?usp=sharing)
 
 
 

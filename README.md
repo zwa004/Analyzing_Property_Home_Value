@@ -1,20 +1,18 @@
 # Analyzing_Property_Home_Value
-<<<<<<< HEAD
+HEAD
 Analyzing property values in Austin, Texas
 
 **RUBRIC SUBMISSION #3
 
+## Outline
+
+The goal of this project is to determine which factor(s) impact the price of houses in a given market. Housing datasets containing individual home sales and zip codes were obtained from Kaggle.com. Data was cleaned using Python, pandas, numpy, matplotlib, and seaborn. Dataframes were stored and queried in postgreSQL. PCA machine learning was performed in order to isolate variables affecting house price.  
 
 
 
 
 
-
-
-
-
-
-
+Link to [Slide Presentation] (https://docs.google.com/presentation/d/11tu1Yr9wB-uFW2_k3EilC2_G3pL-kvGjcyDcvKWN_wg/edit?usp=sharing)
 
 
 

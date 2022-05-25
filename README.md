@@ -9,9 +9,6 @@ Analyzing property values in Austin, Texas
 The goal of this project is to determine which factor(s) impact the price of houses in a given market. Housing datasets containing individual home sales and zip codes were obtained from Kaggle.com. Data was cleaned using Python, pandas, numpy, matplotlib, and seaborn. Dataframes were stored and queried in postgreSQL. PCA machine learning was performed in order to isolate variables affecting house price.  
 
 
-
-
-
 Link to [Presentation Slides](https://docs.google.com/presentation/d/11tu1Yr9wB-uFW2_k3EilC2_G3pL-kvGjcyDcvKWN_wg/edit?usp=sharing)
 
 Link to [Tableau Dashboard](https://public.tableau.com/app/profile/zachary.allgood/viz/AnalyzingHomePrices/ZipCode?publish=yes)
@@ -23,14 +20,12 @@ Link to [Tableau Dashboard](https://public.tableau.com/app/profile/zachary.allgo
 
 
 
-# Austin HOUSING
-**RUBRIC SUMBISSION #1**
-
+# Austin Housing
 ## **PRESENTATION**
-- *SELECTED TOPIC*
-- *REASON FOR SELECTED TOPIC*
-- *DESCRIPTION OF THE SOURCE DATA*
-- *QUESTIONS WE HOPE TO ANSWER WITH THE DATA*
+- Home prices
+- We ourselves are trying to buy homes, therefore we want to understand the market
+- CSV files from Kaggle
+- What factors impact home price the greatest? Can we predict home price value based on these factors?
 [^]: Note: the content does not yet need to be in the form of a presentation; text in the README.md works as well.
 =======
 Analyzing property values
@@ -105,8 +100,6 @@ The model can explain 72% of the price variance with features, however, it is fa
 <img width="1178" alt="Screen Shot 2022-04-30 at 7 35 08 AM" src="https://user-images.githubusercontent.com/91889241/166105929-a2a1df2e-ebdf-4483-9374-98a4a1965b68.png">
 
 
-## **DASHBOARD**
-[Tableau Dashboard](https://public.tableau.com/app/profile/zachary.allgood/viz/AnalyzingPropertyValuesinTennessee/Story1?publish=yes)
 
 ## **DATABASE**
 - Datafiniti has provided us more data fields to work with ML. Based on the new additional data, primary and foreign keys are identified to set the relationships among tables.

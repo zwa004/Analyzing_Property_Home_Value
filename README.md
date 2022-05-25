@@ -2,7 +2,7 @@
 
 Analyzing property values in Austin, Texas
 
-**RUBRIC SUBMISSION #3
+**RUBRIC SUBMISSION #4
 
 ## Outline
 
@@ -14,7 +14,7 @@ The goal of this project is to determine which factor(s) impact the price of hou
 
 Link to [Presentation Slides](https://docs.google.com/presentation/d/11tu1Yr9wB-uFW2_k3EilC2_G3pL-kvGjcyDcvKWN_wg/edit?usp=sharing)
 
-
+Link to [Tableau Dashboard](https://public.tableau.com/app/profile/zachary.allgood/viz/AnalyzingHomePrices/ZipCode?publish=yes)
 
 
 
